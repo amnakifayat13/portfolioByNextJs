@@ -15,7 +15,7 @@ const Projects: React.FC = () => {
       <div className="flex flex-wrap justify-center items-center text-center mt-3  break-words">
     
         {
-            Object.keys(projects).map(project => (
+            Object.keys(projects).map((project) => (
                 <Image
                 src={projects[project as keyof Projects].image}
                 alt=""

@@ -25,7 +25,7 @@ const About: React.FC = () => {
      />
      <div className="mt-3 w-3/4 break-words">
         {
-            userInfo.skills.map(skill => (
+            userInfo.skills.map((skill) => (
              <span className='bg-gray-200 m-1 p-2 text-sm inline-block rounded-md'>{skill}</span>
             ))
         }
