@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import {headerItems, userInfo} from '../constants/constant'
 import Image from 'next/image'
@@ -17,8 +18,9 @@ const Projects: React.FC = () => {
         {
             Object.keys(projects).map((project) => (
                 <Image
+                key={project}
                 src={projects[project as keyof Projects].image}
-                alt=""
+                alt={`Project ${project}`}
                 width={300}
                 height={250}
 
