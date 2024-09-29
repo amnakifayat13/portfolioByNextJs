@@ -12,7 +12,7 @@ export const userInfo: UserObject = {
         My journey in IT began in 2023 since then, I've had the privilege to work on a diverse range of projects, allowing me to refine my skills and approach to problem-solving.
          I thrive on turning complex ideas into elegant solutions that not only meet user needs but also create lasting impacts. 
         `,
-    skills: ['React', 'Next', 'Java', 'HTML','CSS'],
+    skills: ['React', 'Next.JS', 'JavaScript', 'TypeScript', 'MongoDB', 'HTML','CSS'],
 }
 
 export const projects = {

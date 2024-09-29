@@ -26,7 +26,7 @@ const Intro: React.FC = () => {
       <p className="mt-4 mb-4 ">{userInfo.heading}</p>
       <ScrollLink
       to = {headerItems.projects.page}
-      className="bg-purple-600 w-28 h-10 text-white rounded cursor-pointer flex items-center justify-center mb-3 space-between"
+      className="bg-purple-600 w-28 h-10 text-white rounded cursor-pointer flex items-center justify-center mb-3 space-between hover:bg-gray-400 hover:text-black hover:font-bold"
       spy={true}
       smooth={true}
       >
@@ -35,7 +35,7 @@ const Intro: React.FC = () => {
 
       <ScrollLink
       to = {headerItems.contact.page}
-      className="bg-purple-600 w-28 h-10 text-white rounded cursor-pointer flex items-center justify-center space-between"
+      className="bg-purple-600 w-28 h-10 text-white rounded cursor-pointer flex items-center justify-center space-between hover:bg-gray-400 hover:text-black hover:font-bold"
       spy={true}
       smooth={true}
       >

@@ -18,7 +18,7 @@ const Header: React.FC = () => {
             />
 
         </div>
-        <div className={`mr-8 md:space-x-6 mt-6 md:mt-0  md:block ${navItem ? 'block' : 'hidden'}`}>
+        <div className={`mr-8 md:space-x-6 mt-6 md:mt-0  md:block ${navItem ? 'block' : 'hidden hover:text-purple-600 hover:font-extrabold'}`}>
           {
             Object.keys(headerItems).map(item => (
               <ScrollLink

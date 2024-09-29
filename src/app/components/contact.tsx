@@ -20,11 +20,11 @@ const Contact: React.FC = () => {
       </div>
       <div className='md:ml-20 sm:ml-12 md:w-1/2 text-xl'>
       <h1 className="text-7xl uppercase hidden md:block">Contact</h1>
-      <p className='mt-6'> <b>Email:</b> hayatullahamna@gmail.com</p>
-      <p><b>Email:</b> aftabamna13@gmail.com</p>
-      <p><b> Whatsapp:</b> 0316-2391694</p>
-      <p><b>Phone No:</b> 0316-2391694</p>
-      <p> <b>LinkedIn:</b> https://www.linkedin.com/in/amna-aftab-kifayat-81a5822b7/</p>
+      <p className='mt-6 text-bold hover:font-extrabold hover:text-purple-900'> <a href="mailto:hayatullahamna@gmail.com">Email me</a></p>
+      <p className='hover:font-extrabold hover:text-purple-900'><a href="https://wa.me/+923162391694" target="_blank" rel="noopener noreferrer">
+         Message me on WhatsApp</a></p>
+      <p className='hover:font-extrabold hover:text-purple-900'><a href=" https://www.linkedin.com/in/amna-aftab-kifayat-81a5822b7/" target="_blank" rel="noopener noreferrer">
+      Connect with me on LinkedIn</a></p>
       
       </div>
       
