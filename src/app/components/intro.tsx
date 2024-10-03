@@ -19,7 +19,10 @@ const Intro: React.FC = () => {
      />
       </div>
       <div className='md:ml-20 sm:ml-12 md:w-1/2'>
-      <h1 className="text-7xl uppercase hidden md:block">Web Developer</h1>
+      <h1 className="text-7xl uppercase hidden md:block">
+      <marquee scrollamount="10" height="100px" width="70%" hspace="100px" vspace="100px" behavior="scroll"
+    scrolldelay="100"><b>Web Developer</b> </marquee>
+        </h1>
       <h1 className="text-2xl mt-5 md:text-3xl">
         Hi, I&#39;m <span className="text-purple-900 text-3xl md:text-4xl font-bold">{userInfo.userName}</span>
         </h1>

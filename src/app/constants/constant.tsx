@@ -16,7 +16,7 @@ export const userInfo: UserObject = {
 }
 
 export const projects = {
-    calculator: { image: '/images/img1.png'},
+    calculator: { image: '/images/img1.png '},
     offerList: { image: '/images/img2.png' },
     
 }

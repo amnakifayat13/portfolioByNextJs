@@ -15,19 +15,27 @@ const Projects: React.FC = () => {
       
       <div className="flex flex-wrap justify-center items-center text-center mt-3  break-words">
     
-        {
-            Object.keys(projects).map((project) => (
-                <Image
-                key={project}
-                src={projects[project as keyof Projects].image}
-                alt={`Project ${project}`}
-                width={300}
-                height={250}
+        <div> <Image src="/images/img2.png"
+        width={400}
+        height={400}
+        alt=""/>
+       <div className='mt-6'>
+       <a
+            href={"https://mudassir-offer-list.vercel.app/"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-purple-600 text-white font-bold py-2 px-4 rounded hover:bg-gray-400 hover:text-black hover:font-bold "
+    
+          >
+            Live Demo
+          </a>
+       </div>
+       </div>
 
-             className=' mt-4 p-2'/>
-            ))
-        }
-        </div>
+       </div>
+        
+     
+  
       
       
       

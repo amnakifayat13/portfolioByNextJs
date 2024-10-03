@@ -13,8 +13,20 @@ const About: React.FC = () => {
     <span className="text-purple-900 text-3xl my-4 font-bold">Get to know me!</span>
         </h2>
       <p className="mt-4 mb-4 ">{userInfo.about}</p>
+      <div className='mt-6'>
+       <a
+            href={"https://my-resume-83xg.vercel.app/"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-purple-600 text-white font-bold py-2 px-4 rounded hover:bg-gray-400 hover:text-black hover:font-bold "
+    
+          >
+            Download CV
+          </a>
+       </div>
       
       </div>
+      
       <div className="flex flex-col justify-center items-center text-center">
      <Image
      src={userInfo.picture}
@@ -31,6 +43,7 @@ const About: React.FC = () => {
         }
         </div>
       </div>
+      
       
       
     </section>
