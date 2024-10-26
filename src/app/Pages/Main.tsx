@@ -6,7 +6,7 @@ import Contact from '../components/contact'
 
 const Main: React.FunctionComponent = () => {
   return (
-    <div className="lg:mx-32 md:mx-4">
+    <div className="lg:mx-32  md:mx-4">
     <Intro/>
     <About/>
     <Projects/>

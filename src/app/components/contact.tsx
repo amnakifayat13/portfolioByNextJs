@@ -8,7 +8,7 @@ import {Link as ScrollLink} from 'react-scroll'
 const Contact: React.FC = () => {
   return (
     <section id={headerItems.contact.page}
-    className="h-screen flex flex-col text-center justify-center items-center md:flex-row md:text-start">
+    className="h-screen flex flex-col text-center justify-center items-center mb-10 md:flex-row md:text-start">
       <div>
      <Image
      src={userInfo.picture}
