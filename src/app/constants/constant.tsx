@@ -6,11 +6,19 @@ export const userInfo: UserObject = {
     name: "Portfolio",
     userName: "Amna Aftab Kifayat",
     picture: "/images/heroImage.jpeg",
-    heading: 'I am a Web Developer based in Pakistan, with a passion for creating elegant and efficient solutions that seamlessly integrate user-friendly experiences. I have built websites, and desktop applications.',
+    heading: 'I am a passionate web developer with a focus on buildingresponsive user-friendly, and efficient websites and web applications. My expertise spans across modern JavaScript frameworks like React and Next.js, along with solid experience in backend development with Node.js and databases.',
     about: `
-        I am a passionate Web Developer with a strong background in Web Development.
-        My journey in IT began in 2023 since then, I've had the privilege to work on a diverse range of projects, allowing me to refine my skills and approach to problem-solving.
-         I thrive on turning complex ideas into elegant solutions that not only meet user needs but also create lasting impacts. 
+        I'm a passionate web developer dedicated to crafting
+                             high-quality, engaging digital experiences. With a 
+                             strong foundation in front-end and back-end technologies,
+                              I enjoy building responsive and interactive websites that
+                               blend creativity with functionality. From user-friendly
+                               interfaces to robust server-side applications, I focus
+                                on delivering solutions that not only meet user needs 
+                                but also enhance business goals. I'm constantly learning
+                                 and experimenting with the latest web technologies,
+                                 ensuring my skills stay at the cutting edge. Let's
+                                  work together to bring your vision to life on the web!
         `,
     skills: ['React', 'Next.JS', 'JavaScript', 'TypeScript', 'MongoDB', 'HTML','CSS'],
 }
